@@ -1,0 +1,8 @@
+"""
+provided code stud reads two integers from STDIN, a and b
+the first line contains the sum of the two numbers
+the second line contains the difference of two numbers
+the third line is the product of two numbers
+get a
+get b
+
