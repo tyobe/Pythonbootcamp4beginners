@@ -3,21 +3,21 @@
 import os
 os.system
 
-car = [	{
+car = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
-} ]
+} 
 
 #Change the "year" value from 1964 to 2020
-car[0].update({"year": 2020})
-print(car[0])
+car.update({"year": 2020})
+print(car)
 
 #Add the key/value pair "color" : "red" to the car dictionary
-car[0].update({"color": "red"})
-print(car[0])
+car.update({"color": "red"})
+print(car)
 
 #Use the pop method to remove "model" from the car dictionary.
-for carDict in car:
-    carDict.pop("model")
-    print(carDict)
+
+car.pop("model")
+print(car)
